@@ -11,7 +11,7 @@
   color: #727272;
   font-weight: 400;
   line-height: 1.5rem;
-  margin: 20px;
+  
 }
 .btn-primary {
   background: #ff900e;
@@ -39,6 +39,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 nav ul {
   display: flex;
@@ -63,16 +64,65 @@ nav li > a {
   text-align: center;
 }
 .banner-content {
-  max-width: 850px;
+  max-width: 55rem;
   margin: 0 auto;
 }
 .banner-title {
   color: #131313;
   font-size: 4rem;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 .banner img {
   width: 100%;
   padding-top: 30px;
-  border-radius: 10px;
+}
+
+
+
+
+/* responsive design */
+/* for mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+nav{
+    flex-direction: column;
+}    
+ .nav-title{
+    font-size: 2rem;
+    padding-bottom: 20px;
+ }
+ nav ul > li {
+    margin: 12px;
+}
+nav li > a{
+    font-size: 1.3rem;
+}
+ .banner-title {
+    font-size: 1.5rem;
+}
+
+}
+
+/* for medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-title{
+        font-size: 5rem;
+        padding-bottom: 20px;
+     }   
+     nav li > a{
+        font-size: 2.5rem;
+    } 
+    .text-light-gray{
+        font-size: 2.5rem;
+        line-height:2.5rem
+    }
 }
