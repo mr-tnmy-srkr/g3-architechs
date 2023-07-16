@@ -81,6 +81,24 @@ nav li > a {
 
 
 
+/* footer section */
+footer{
+color: #424242;
+text-align: center;
+font-weight: 400;
+width: auto;
+height: 100px;
+border-radius: 8px;
+
+}
+footer small{
+  background-color: rgba(255, 143, 14, 0.346);
+  font-size: 1.25rem;
+  padding: 20px 100px;
+  position: relative;
+  top: 40%;
+  border-radius: 10px;
+}
 /* responsive design */
 /* for mobile devices */
 @media screen and (max-width:576px) {
@@ -104,6 +122,13 @@ nav li > a{
     font-size: 1.5rem;
 }
 
+
+
+
+footer small{
+  padding: 20px;
+  font-size: 1rem;
+}
 }
 
 /* for medium devices */
@@ -128,5 +153,13 @@ nav li > a{
     .text-light-gray{
         font-size: 2.0rem;
         line-height:2.5rem
+    }
+
+
+
+
+    footer small{
+      padding: 20px;
+      font-size: 1rem;
     }
 }
