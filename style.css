@@ -11,7 +11,7 @@
   color: #727272;
   font-weight: 400;
   line-height: 1.5rem;
-  
+  padding-bottom: 20px;
 }
 .btn-primary {
   background: #ff900e;
@@ -25,7 +25,7 @@
   /* height: 64px; */
   border: 0;
   cursor: pointer;
-  margin: 20px;
+ 
 }
 
 /* header styles */
@@ -77,7 +77,40 @@ nav li > a {
   width: 100%;
   padding-top: 30px;
 }
-
+/* main section styling */
+/* team section styling */
+.team-container{
+  display: flex;
+  align-items: center;
+  gap:50px;
+  width: 80%;
+  margin: 0 auto;
+  padding:50px 0;
+}
+.team-image-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+}
+.team-container img{
+  width: 240px;
+height: 240px;
+}
+.quick-list{
+  color: #727272;
+font-size: 2.8rem;
+font-weight: 500;
+}
+.of-our{
+color:#131313;
+font-size: 2.8rem;
+font-weight: 700;
+}
+.features{
+  color: #FF900E;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 
 
 
