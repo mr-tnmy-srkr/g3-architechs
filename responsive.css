@@ -1,6 +1,6 @@
-/* responsive media queries */
+/* /* /* responsive media queries */
 /* mobile devices */
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     header {
      
         padding: 50px 240px;
@@ -50,10 +50,10 @@
     .facts-card-container {
         gap: 20px;
     }
-}
+}*/
 
 /* tablet or medium devices */
-@media screen and (min-width:576px) and (max-width: 960px) {
+/* @media screen and (min-width:576px) and (max-width: 960px) {
     header {
         padding: 50px;
     }
@@ -63,5 +63,5 @@
     .teams-container,
     .sponsors-img-container {
         flex-direction: column;
-    }
-}
+    } */
+} */
